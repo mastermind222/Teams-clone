@@ -28,9 +28,15 @@ Create a firebase project.
 
 Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.com) to install all dependencies in both client and server folders.
 
+```bash
+npm i
+```
+
 ## Usage
 
+```bash
 # startup instruction here
+```
 
 Redis server:redis-server
 Server: cd server
@@ -47,10 +53,10 @@ Client: cd client
 
 
 # .env
-## server
+## * server
 * PORT
 
-## client
+## * client
 * REACT_APP_FIREBASE_API_KEY 
 * REACT_APP_FIREBASE_AUTH_DOMAIN
 * REACT_APP_FIREBASE_PROJECT_ID
